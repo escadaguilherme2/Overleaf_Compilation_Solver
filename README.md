@@ -53,40 +53,38 @@ Additionally, this repository provides an optional folder to convert multiple im
 
 ## Optional: Image2pdf Tool for Faster Compilation
 
-If you wish to speed up the LaTeX compilation process, consider converting all images to PDF format using the **optional Image2pdf tool**. You have two options depending on your setup:
+The **Image2pdf** tool is an optional utility that can help speed up the LaTeX compilation process by converting all images to PDF format.
 
-### Option 1: Python Script (`image2pdf.py`)
+### Option 1: Python Script (`Image2pdf.py`)
 
-If you have Python installed, you can use the Python script:
+If you have Python installed:
 
-1. Copy the `image2pdf.py` script to the folder where your images are located.
+1. Copy the `Image2pdf.py` script to the folder where your images are located.
 2. Run the script to convert your images to PDF format.
-3. A copy of each image will be created with a `.pdf` extension.
-4. Afterward, update the image references in your LaTeX project.
+3. A PDF version of each image will be created with the `.pdf` extension.
+4. Update the image references in your LaTeX project.
 
-### Option 2: Recombining and Running the Executable (`Image2pdf.exe`)
+### Option 2: Executable (`Image2pdf.exe`)
 
-If you prefer using an executable or don't have Python installed, follow these steps to recombine and run the `Image2pdf.exe`:
+If you do not have Python installed or prefer using an executable, follow these steps:
 
-1. **Recombine the Executable**:
-    - The `Image2pdf.exe` file has been split into multiple parts due to GitHub's file size limitations.
-    - To reassemble it:
-      1. Run the `combine_file.bat` script.
-     
-      3. The original executable will be recreated as `Image2pdf.exe`.
+#### Step 1: Extract `Image2pdf.exe`
 
-    **Important:** If you encounter a security error while running the script, you may need to adjust your PowerShell execution policy. Open PowerShell as an administrator and run:
-    ```powershell
-    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-    ```
+The executable is provided as a split ZIP archive due to GitHub's file size limitations. To reassemble it:
 
-2. **Running the Executable**:
-    - Once recombined, copy `Image2pdf.exe` to the folder containing your images.
-    - Run the executable to convert the images to PDF format.
-    - Each image will have a `.pdf` copy created in the same folder.
-    - After the conversion, update the image references in your LaTeX project.
+1. Download the split archive parts (`Image2pdf.zip.001`, `Image2pdf.zip.002`, etc.).
+2. Use **7-Zip** to extract the executable:
+   - Right-click on `Image2pdf.zip.001` and select **7-Zip > Extract Here**.
+   - Ensure all parts of the split archive are in the same directory before extracting.
 
-    You may delete the executable after use.
+#### Step 2: Run the Executable
+
+1. Once `Image2pdf.exe` is extracted, copy it to the folder where your images are located.
+2. Run the executable to convert your images to PDF format.
+3. A PDF version of each image will be created with the `.pdf` extension.
+4. Update the image references in your LaTeX project.
+
+You may delete the executable after use if desired.
 
 Your folder structure should now look similar to this:
 
