@@ -51,14 +51,45 @@ Additionally, this repository provides an optional folder to convert multiple im
     - Move the file `README (MiKTeX).txt` to the **MiKTeX** folder. This file provides tips and instructions for using MiKTeX.
     - Move the file `RUNME.bat` to the `LaTeX` folder.
 
-11. If you want to speed up image processing during compilation, use the `Image2pdf` tool provided in this repository. 
+## Optional: Image2PDF Tool for Faster Compilation
 
-    - **If you have Python installed**, you can run the `image2pdf.py` script directly. Copy the script into the folder where your images are located and execute it. 
-    - **If you don't have Python installed**, extract the `image2pdf.exe` file from the zipped folder (due to GitHub's file size limitations) and place it in the folder where your images are. Then, run the executable.
+If you wish to speed up the LaTeX compilation process, consider converting all images to PDF format using the **optional Image2PDF tool**. You have two options depending on your setup:
 
-    This will create a copy of each image in the folder with a `.pdf` extension. Afterward, simply update the image references in your LaTeX editor. You can delete the executable or script after the conversion is complete.
+### Option 1: Python Script (`image2pdf.py`)
 
-Your folder structure should look similar to this at this point:
+If you have Python installed, you can use the Python script:
+
+1. Copy the `image2pdf.py` script to the folder where your images are located.
+2. Run the script to convert your images to PDF format.
+3. A copy of each image will be created with a `.pdf` extension.
+4. Afterward, update the image references in your LaTeX project.
+
+### Option 2: Recombining and Running the Executable (`Image2pdf.exe`)
+
+If you prefer using an executable or don't have Python installed, follow these steps to recombine and run the `Image2pdf.exe`:
+
+1. **Recombine the Executable**:
+    - The `Image2pdf.exe` file has been split into multiple parts due to GitHub's file size limitations.
+    - To reassemble it:
+      1. Run the `combine_file.bat` script.
+      2. When prompted, enter `Image2pdf` as the input name.
+      3. Then, type `Image2pdf.exe` as the output file name.
+      4. The original executable will be recreated as `Image2pdf.exe`.
+
+    **Important:** If you encounter a security error while running the script, you may need to adjust your PowerShell execution policy. Open PowerShell as an administrator and run:
+    ```powershell
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+    ```
+
+2. **Running the Executable**:
+    - Once recombined, copy `Image2pdf.exe` to the folder containing your images.
+    - Run the executable to convert the images to PDF format.
+    - Each image will have a `.pdf` copy created in the same folder.
+    - After the conversion, update the image references in your LaTeX project.
+
+    You may delete the executable after use.
+
+Your folder structure should now look similar to this:
 
 ![9](https://github.com/user-attachments/assets/5a0fae36-0694-48a2-9bd6-f4b97c354a12)
 
