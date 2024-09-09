@@ -51,9 +51,9 @@ Additionally, this repository provides an optional folder to convert multiple im
     - Move the file `README (MiKTeX).txt` to the **MiKTeX** folder. This file provides tips and instructions for using MiKTeX.
     - Move the file `RUNME.bat` to the `LaTeX` folder.
 
-## Optional: Image2PDF Tool for Faster Compilation
+## Optional: Image2pdf Tool for Faster Compilation
 
-If you wish to speed up the LaTeX compilation process, consider converting all images to PDF format using the **optional Image2PDF tool**. You have two options depending on your setup:
+If you wish to speed up the LaTeX compilation process, consider converting all images to PDF format using the **optional Image2pdf tool**. You have two options depending on your setup:
 
 ### Option 1: Python Script (`image2pdf.py`)
 
@@ -72,9 +72,8 @@ If you prefer using an executable or don't have Python installed, follow these s
     - The `Image2pdf.exe` file has been split into multiple parts due to GitHub's file size limitations.
     - To reassemble it:
       1. Run the `combine_file.bat` script.
-      2. When prompted, enter `Image2pdf` as the input name.
-      3. Then, type `Image2pdf.exe` as the output file name.
-      4. The original executable will be recreated as `Image2pdf.exe`.
+     
+      3. The original executable will be recreated as `Image2pdf.exe`.
 
     **Important:** If you encounter a security error while running the script, you may need to adjust your PowerShell execution policy. Open PowerShell as an administrator and run:
     ```powershell
