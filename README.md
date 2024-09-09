@@ -47,7 +47,7 @@ Additionally, this repository provides an optional folder to convert multiple im
 
 9. Download [this](https://github.com/escadaguilherme2/Overleaf_Compilation_Solver/releases) repository's files.
 
-![11](https://github.com/user-attachments/assets/4f0c8174-442e-4639-8e67-16bcf9b0e4dc)
+![11](https://github.com/user-attachments/assets/42efde8c-c725-4e13-aacd-5f5a3c3c9a39)
 
 10. **Extract the contents of the folder.**
     - Move the file `README (MiKTeX).txt` to the **MiKTeX** folder. This file provides tips and instructions for using MiKTeX.
@@ -72,11 +72,11 @@ If you do not have Python installed or prefer using an executable, follow these 
 
 #### Step 1: Extract `Image2pdf.exe`
 
-The executable is provided as a split ZIP archive due to GitHub's file size limitations. To reassemble it:
+The executable is provided as a split 7-Zip archive due to GitHub's file size limitations. To reassemble it:
 
-1. Download the split archive parts (`Image2pdf.zip.001`, `Image2pdf.zip.002`, etc.).
+1. Download the split archive parts (`Image2pdf.7z.001` and `Image2pdf.7z.002`).
 2. Use **7-Zip** to extract the executable:
-   - Right-click on `Image2pdf.zip.001` and select **7-Zip > Extract Here**.
+   - Right-click on `Image2pdf.7z.001` and select **7-Zip > Extract Here**.
    - Ensure all parts of the split archive are in the same directory before extracting.
 
 #### Step 2: Run the Executable
