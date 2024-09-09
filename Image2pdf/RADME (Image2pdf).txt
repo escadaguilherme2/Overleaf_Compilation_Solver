@@ -1,0 +1,38 @@
+Image2pdf Tool Instructions
+
+The Image2pdf tool is an optional utility to help convert multiple images to PDF format, which can speed up LaTeX compilation by ensuring all images are in PDF format.
+
+How to Use Image2pdf
+
+Option 1: Python Script (`image2pdf.py`)
+
+If you have Python installed, you can directly use the Python script:
+
+1. Copy the `Image2pdf.py` script to the folder containing your images.
+2. Run the script to convert your images to pdf format.
+3. A pdf copy of each image will be created with the same file name but with a `.pdf` extension.
+4. Update the image references in your LaTeX project accordingly.
+
+Option 2: Extract and Use the Executable (`Image2pdf.exe`)
+
+If you prefer using an executable or do not have Python installed, follow these instructions:
+
+Step 1: Extract `Image2pdf.exe`
+
+The `Image2pdf.exe` file is provided in a split ZIP format due to GitHub's file size limitations. Follow these steps to extract it:
+
+1. Download the files `Image2pdf.zip.001`, `Image2pdf.zip.002`, etc., from this repository.
+2. Use 7-Zip (or another compatible archive tool) to extract the contents:
+   - Right-click on `Image2pdf.zip.001` and choose 7-Zip > Extract Here.
+   - 7-Zip will automatically combine and extract the files into a single `Image2pdf.exe`.
+   
+   Important: You must have all the parts of the split archive in the same directory for the extraction to work.
+
+Step 2: Run the Executable
+
+1. Once `Image2pdf.exe` is extracted, copy it to the folder containing your images.
+2. Run the executable to convert the images to PDF format.
+3. A pdf version of each image will be created with the `.pdf` extension.
+4. Update the image references in your LaTeX project accordingly.
+
+You may delete the executable after use if desired.
