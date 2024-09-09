@@ -47,7 +47,7 @@ Additionally, this repository provides an optional folder to convert multiple im
 
 9. Download [this](https://github.com/escadaguilherme2/Overleaf_Compilation_Solver/releases) repository's files.
 
-![image](https://github.com/user-attachments/assets/cb389bae-14f5-411e-95af-66dd1bbf8b58)
+![11](https://github.com/user-attachments/assets/4f0c8174-442e-4639-8e67-16bcf9b0e4dc)
 
 10. **Extract the contents of the folder.**
     - Move the file `README (MiKTeX).txt` to the **MiKTeX** folder. This file provides tips and instructions for using MiKTeX.
