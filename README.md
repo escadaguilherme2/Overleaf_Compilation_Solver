@@ -12,7 +12,7 @@ Additionally, this repository provides an optional folder to convert multiple im
 
 ![2](https://github.com/user-attachments/assets/6d7c30d6-9de2-41f8-8689-4d8b78157c93)
 
-4. **Extract the contents of the downloaded folder.**
+3. **Extract the contents of the downloaded folder.**
     - Locate the folder containing the files and rename it to **Texmaker**.
 
 ![3](https://github.com/user-attachments/assets/16f76fdf-a839-45e0-8e18-5b6d7f803a7e)
@@ -22,36 +22,41 @@ Additionally, this repository provides an optional folder to convert multiple im
 ![4](https://github.com/user-attachments/assets/db98e01e-3d1e-4110-9cd7-bf0c621fc850)
 
 
-6. Download the portable version of MiKTeX [here](https://miktex.org/download).
+4. Download the portable version of MiKTeX [here](https://miktex.org/download).
 
     **Note:** The file you need is located under the "Installer" section.
 
-   ![5](https://github.com/user-attachments/assets/c11e487a-1c3e-405a-a2bc-2375c3be0e4a)
+![5](https://github.com/user-attachments/assets/c11e487a-1c3e-405a-a2bc-2375c3be0e4a)
 
-8. **Rename the file** to `miktex-portable.exe` and run it.
+5. **Rename the file** to `miktex-portable.exe` and run it.
 
 ![6](https://github.com/user-attachments/assets/9c2433a7-d1b5-4c16-a429-c44c9f70117c)
 
-10. During installation, you will be asked for the destination folder. Choose a suitable location such as the `LaTeX` folder or your desktop.  
+6. During installation, you will be asked for the destination folder. Choose a suitable location such as the `LaTeX` folder or your desktop.  
     **Important:** If selecting a folder, you must add `\MiKTeX` to the end of the path.
+    
+![7](https://github.com/user-attachments/assets/2bb05192-9cf8-45e4-97c6-ab44d8edc7eb)
 
-    ![7](https://github.com/user-attachments/assets/2bb05192-9cf8-45e4-97c6-ab44d8edc7eb)
+7. **Set preferences** during installation. It is recommended to select "Yes" for the option `Install missing packages on-the-fly`.
 
-12. **Set preferences** during installation. It is recommended to select "Yes" for the option `Install missing packages on-the-fly`.
+![8](https://github.com/user-attachments/assets/500afc98-73bc-4c89-b03b-4ddfa08f4fd9)
 
-    ![8](https://github.com/user-attachments/assets/500afc98-73bc-4c89-b03b-4ddfa08f4fd9)
-
-14. Once the installation is complete, if the MiKTeX folder is not yet in the `LaTeX` folder, move it there now.
+8. Once the installation is complete, if the MiKTeX folder is not yet in the `LaTeX` folder, move it there now.
 
     You can now delete the `miktex-portable.exe` installer.
 
-15. Download [this](https://github.com/escadaguilherme2/Overleaf_Compilation_Solver) repository's files.
+9. Download [this](https://github.com/escadaguilherme2/Overleaf_Compilation_Solver) repository's files.
 
-16. **Extract the contents of the folder.**
+10. **Extract the contents of the folder.**
     - Move the file `README (MiKTeX).txt` to the **MiKTeX** folder. This file provides tips and instructions for using MiKTeX.
     - Move the file `RUNME.bat` to the `LaTeX` folder.
 
-17. If you want to speed up image processing during compilation, use the included `Image2pdf` folder to convert images to PDFs. The folder contains instructions in its `README.txt`.
+11. If you want to speed up image processing during compilation, use the `Image2pdf` tool provided in this repository. 
+
+    - **If you have Python installed**, you can run the `image2pdf.py` script directly. Copy the script into the folder where your images are located and execute it. 
+    - **If you don't have Python installed**, extract the `image2pdf.exe` file from the zipped folder (due to GitHub's file size limitations) and place it in the folder where your images are. Then, run the executable.
+
+    This will create a copy of each image in the folder with a `.pdf` extension. Afterward, simply update the image references in your LaTeX editor. You can delete the executable or script after the conversion is complete.
 
 Your folder structure should look similar to this at this point:
 
