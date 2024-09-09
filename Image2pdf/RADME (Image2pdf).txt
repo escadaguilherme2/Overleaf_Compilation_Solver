@@ -19,11 +19,11 @@ If you prefer using an executable or do not have Python installed, follow these 
 
 Step 1: Extract `Image2pdf.exe`
 
-The `Image2pdf.exe` file is provided in a split ZIP format due to GitHub's file size limitations. Follow these steps to extract it:
+The `Image2pdf.exe` file is provided in a split 7-Zip format due to GitHub's file size limitations. Follow these steps to extract it:
 
-1. Download the files `Image2pdf.zip.001`, `Image2pdf.zip.002`, etc., from this repository.
+1. Download the files `Image2pdf.7z.001`, `Image2pdf.7z.002`, etc., from this repository.
 2. Use 7-Zip (or another compatible archive tool) to extract the contents:
-   - Right-click on `Image2pdf.zip.001` and choose 7-Zip > Extract Here.
+   - Right-click on `Image2pdf.7z.001` and choose 7-Zip > Extract Here.
    - 7-Zip will automatically combine and extract the files into a single `Image2pdf.exe`.
    
    Important: You must have all the parts of the split archive in the same directory for the extraction to work.
