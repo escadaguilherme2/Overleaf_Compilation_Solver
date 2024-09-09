@@ -45,7 +45,9 @@ Additionally, this repository provides an optional folder to convert multiple im
 
     You can now delete the `miktex-portable.exe` installer.
 
-9. Download [this](https://github.com/escadaguilherme2/Overleaf_Compilation_Solver) repository's files.
+9. Download [this](https://github.com/escadaguilherme2/Overleaf_Compilation_Solver/releases) repository's files.
+
+![image](https://github.com/user-attachments/assets/cb389bae-14f5-411e-95af-66dd1bbf8b58)
 
 10. **Extract the contents of the folder.**
     - Move the file `README (MiKTeX).txt` to the **MiKTeX** folder. This file provides tips and instructions for using MiKTeX.
@@ -90,6 +92,6 @@ Your folder structure should now look similar to this:
 
 ![9](https://github.com/user-attachments/assets/5a0fae36-0694-48a2-9bd6-f4b97c354a12)
 
-12. **Final Steps:**
+11. **Final Steps:**
     - It is recommended to read the `README (MiKTeX).txt` file and follow its instructions to ensure MiKTeX is up to date for future use.
     - Once done, you are ready to start using your portable LaTeX editor!
