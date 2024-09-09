@@ -95,3 +95,9 @@ Your folder structure should now look similar to this:
 11. **Final Steps:**
     - It is recommended to read the `README (MiKTeX).txt` file and follow its instructions to ensure MiKTeX is up to date for future use.
     - Once done, you are ready to start using your portable LaTeX editor!
+
+## About
+
+This project is developed by [**escadaguilherme2**](https://github.com/escadaguilherme2) and the repository for this project can be found [here](https://github.com/escadaguilherme2/Overleaf_Compilation_Solver).
+
+Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request on the repository.
