@@ -15,18 +15,18 @@ Additionally, this repository provides an optional folder to convert multiple im
 3. **Extract the contents of the downloaded folder.**
     - Locate the folder containing the files and rename it to **Texmaker**.
 
-![3](https://github.com/user-attachments/assets/16f76fdf-a839-45e0-8e18-5b6d7f803a7e)
+![2](https://github.com/user-attachments/assets/98ebc038-80dd-4c04-96b2-f260c99ee479)
 
     - Move it to the `LaTeX` folder you created earlier.
 
-![4](https://github.com/user-attachments/assets/db98e01e-3d1e-4110-9cd7-bf0c621fc850)
+![3](https://github.com/user-attachments/assets/3917ade8-2a5f-4e50-8d63-358224b53609)
 
 
 4. Download the portable version of MiKTeX [here](https://miktex.org/download).
 
     **Note:** The file you need is located under the "Installer" section.
 
-![5](https://github.com/user-attachments/assets/c11e487a-1c3e-405a-a2bc-2375c3be0e4a)
+![4](https://github.com/user-attachments/assets/b8691310-2b15-4245-a799-7c1f99cd2a63)
 
 5. **Rename the file** to `miktex-portable.exe` and run it.
 
@@ -47,7 +47,7 @@ Additionally, this repository provides an optional folder to convert multiple im
 
 9. Download [this](https://github.com/escadaguilherme2/Overleaf_Compilation_Solver/releases) repository's files.
 
-![11](https://github.com/user-attachments/assets/42efde8c-c725-4e13-aacd-5f5a3c3c9a39)
+![8](https://github.com/user-attachments/assets/753cf8a0-5ca2-47f7-ba19-7a86bf8aed45)
 
 10. **Extract the contents of the folder.**
     - Move the file `README (MiKTeX).txt` to the **MiKTeX** folder. This file provides tips and instructions for using MiKTeX.
@@ -90,7 +90,7 @@ You may delete the executable after use if desired.
 
 Your folder structure should now look similar to this:
 
-![9](https://github.com/user-attachments/assets/5a0fae36-0694-48a2-9bd6-f4b97c354a12)
+![9](https://github.com/user-attachments/assets/31da48c8-1600-48ee-9781-646d1fb0e807)
 
 11. **Final Steps:**
     - It is recommended to read the `README (MiKTeX).txt` file and follow its instructions to ensure MiKTeX is up to date for future use.
