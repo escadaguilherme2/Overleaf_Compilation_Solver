@@ -55,11 +55,11 @@ Additionally, this repository provides an optional folder to convert multiple im
    5.1. Extract the contents of the folder.
    
    5.2. Open the folder and find the files.
-
+   
    5.3. Move the file `README (MiKTeX).txt` to the **MiKTeX** folder. This file provides tips and instructions for using MiKTeX.
    
    5.4. Move the file `RUNME.bat` to the **LaTeX** folder.
-
+   
    5.5. If wanted move the folder **Image2pdf** to the **LaTeX** folder as well.
    
    Your folder structure should now look similar to this:
@@ -68,11 +68,13 @@ Additionally, this repository provides an optional folder to convert multiple im
 
    You can now delete both the original downloaded folder and the extracted folder.
 
-12. **Final Steps:**
+7. **Final Steps:**
     - It is recommended to read the `README (MiKTeX).txt` file and follow its instructions to ensure MiKTeX is up to date for future use.
     - Once done, you are ready to start using your portable LaTeX editor! Just run the `RUNME.bat` located in the **LaTeX** folder.
+   
+   ⚠️ **Important:** The `RUNME.bat` may be flagged by your antivirus. Don´t worry the file is safe. You can see it's contents in Github by clicking in the name of the file.
 
-## Image2pdf Tool for Faster Compilation: Usage and Output
+## Optional Image2pdf Tool for Faster Compilation
 
 The **Image2pdf** tool is an optional utility that can help speed up the LaTeX compilation process by converting all images to PDF format.
 
@@ -85,27 +87,26 @@ The **Image2pdf** tool is an optional utility that can help speed up the LaTeX c
    3. A PDF version of each image will be created with the `.pdf` extension.
    4. Update the image references in your LaTeX project.
 
-   Otherwise install python from [here](https://www.python.org/downloads/ "Python download page") Or use the next option.
+   You may delete the Python script after use if desired.
+
+   Otherwise install python from [here](https://www.python.org/downloads/ "Python download page") or use the next option.
    
    ### Option 2: Executable (`Image2pdf.exe`)
    
    If you do not have Python installed or prefer using an executable, follow these steps:
    
-   #### Step 1: Extract `Image2pdf.exe`
+   The executable is provided as a split 7-Zip archive due to GitHub's file size limitations.
    
-   The executable is provided as a split 7-Zip archive due to GitHub's file size limitations. To reassemble it:
-   
-   1. Download the split archive parts (`Image2pdf.7z.001` and `Image2pdf.7z.002`).
-   2. Use **7-Zip** to extract the executable:
-      - Right-click on `Image2pdf.7z.001` and select **7-Zip > Extract Here**.
-      - Ensure all parts of the split archive are in the same directory before extracting.
-   
-   #### Step 2: Run the Executable
-   
-   1. Once `Image2pdf.exe` is extracted, copy it to the folder where your images are located.
-   2. Run the executable to convert your images to PDF format.
-   3. A PDF version of each image will be created with the `.pdf` extension.
-   4. Update the image references in your LaTeX project.
+   1. Use **7-Zip** to extract the executable:
+
+      1.1. Ensure all parts of the split archive (`Image2pdf.7z.001` and `Image2pdf.7z.002`) are in the same directory before extracting.
+      
+      1.2. Right-click on `Image2pdf.7z.001` and select **7-Zip > Extract Here**.
+      
+   3. Once `Image2pdf.exe` is extracted, copy it to the folder where your images are located.
+   4. Run the executable to convert your images to PDF format.
+   5. A PDF version of each image will be created with the `.pdf` extension.
+   6. Update the image references in your LaTeX project.
    
    You may delete the executable after use if desired.
 
