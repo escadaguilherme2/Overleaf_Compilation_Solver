@@ -6,98 +6,108 @@ Additionally, this repository provides an optional folder to convert multiple im
 
 ## How to Set Up
 
-1. **Create a folder named `LaTeX`.**
+1. Create a folder named **LaTeX**.
 
-2. Download the portable version of Texmaker [here](https://www.xm1math.net/texmaker/download.html).
+2. Download the portable version of Texmaker [here](https://www.xm1math.net/texmaker/download.html "Texmaker download page").
 
-![2](https://github.com/user-attachments/assets/6d7c30d6-9de2-41f8-8689-4d8b78157c93)
+   ![1](https://github.com/user-attachments/assets/6d7c30d6-9de2-41f8-8689-4d8b78157c93)
 
-3. **Extract the contents of the downloaded folder.**
+   2.1. Extract the contents of the downloaded folder.
    
-    > - Locate the folder containing the files and rename it to **Texmaker**. 
+   2.2. Locate the folder containing the files and rename it to **Texmaker**.
 
-![2](https://github.com/user-attachments/assets/98ebc038-80dd-4c04-96b2-f260c99ee479)
+      ![2](https://github.com/user-attachments/assets/98ebc038-80dd-4c04-96b2-f260c99ee479)
 
-    > - Move it to the `LaTeX` folder you created earlier. 
+   2.3. Move it to the **LaTeX** folder you created earlier.
 
-![3](https://github.com/user-attachments/assets/3917ade8-2a5f-4e50-8d63-358224b53609)
+      ![3](https://github.com/user-attachments/assets/3917ade8-2a5f-4e50-8d63-358224b53609)
 
-    > You can now delete both the original downloaded folder and the extracted folder. 
+   You can now delete both the original downloaded folder and the extracted folder.
 
-4. Download the portable version of MiKTeX [here](https://miktex.org/download).
+3. In the **LaTeX** folder create a new one named **MiKTeX**.
+
+   ![4](https://github.com/user-attachments/assets/3b4ba5ce-6a22-464f-9c3d-c5187172b089)
+   
+4. Download the portable version of MiKTeX [here](https://miktex.org/download "MiKTeX download page").
 
     **Note:** The file you need is located under the "Installer" section.
 
-![4](https://github.com/user-attachments/assets/b8691310-2b15-4245-a799-7c1f99cd2a63)
+   ![5](https://github.com/user-attachments/assets/b8691310-2b15-4245-a799-7c1f99cd2a63)
 
-5. **Rename the file** to `miktex-portable.exe` and run it.
+   4.1. **Rename the file** to `miktex-portable` and run it.
+   
+      ![6](https://github.com/user-attachments/assets/9c2433a7-d1b5-4c16-a429-c44c9f70117c)
 
-![6](https://github.com/user-attachments/assets/9c2433a7-d1b5-4c16-a429-c44c9f70117c)
+   4.2. During installation, you will be asked for the destination folder. Choose the **MiKTeX** folder created earlier.
+       
+      ![7](https://github.com/user-attachments/assets/31d2829c-4049-4d30-a3b4-60a69a2f8e76)
 
-6. During installation, you will be asked for the destination folder. Choose a suitable location such as the `LaTeX` folder or your desktop.  
+   4.3. When setting preferences during installation it is recommended to select `Yes` for the option `Install missing packages on-the-fly`.
+   
+      ![8](https://github.com/user-attachments/assets/500afc98-73bc-4c89-b03b-4ddfa08f4fd9)
 
-   **Important:** If selecting a folder, you must add `\MiKTeX` to the end of the path.
-    
-![7](https://github.com/user-attachments/assets/2bb05192-9cf8-45e4-97c6-ab44d8edc7eb)
+    After installing you can delete the `miktex-portable.exe` installer.
 
-7. **Set preferences** during installation. It is recommended to select "Yes" for the option `Install missing packages on-the-fly`.
+5. Download [this](https://github.com/escadaguilherme2/Overleaf_Compilation_Solver/releases) repository's files.
 
-![8](https://github.com/user-attachments/assets/500afc98-73bc-4c89-b03b-4ddfa08f4fd9)
+   ![9](https://github.com/user-attachments/assets/c2442baa-a075-4398-b1cf-a5b11e5dd840)
 
-8. Once the installation is complete, if the MiKTeX folder is not yet in the `LaTeX` folder, move it there now.
+   5.1. Extract the contents of the folder.
+   
+   5.2. Open the folder and find the files.
 
-    You can now delete the `miktex-portable.exe` installer.
+   5.3. Move the file `README (MiKTeX).txt` to the **MiKTeX** folder. This file provides tips and instructions for using MiKTeX.
+   
+   5.4. Move the file `RUNME.bat` to the **LaTeX** folder.
 
-9. Download [this](https://github.com/escadaguilherme2/Overleaf_Compilation_Solver/releases) repository's files.
+   5.5. If wanted move the folder **Image2pdf** to the **LaTeX** folder as well.
+   
+   Your folder structure should now look similar to this:
+   
+      ![10](https://github.com/user-attachments/assets/31da48c8-1600-48ee-9781-646d1fb0e807)
 
-![8](https://github.com/user-attachments/assets/753cf8a0-5ca2-47f7-ba19-7a86bf8aed45)
+   You can now delete both the original downloaded folder and the extracted folder.
 
-10. **Extract the contents of the folder.**
-    - Move the file `README (MiKTeX).txt` to the **MiKTeX** folder. This file provides tips and instructions for using MiKTeX.
-    - Move the file `RUNME.bat` to the `LaTeX` folder.
+12. **Final Steps:**
+    - It is recommended to read the `README (MiKTeX).txt` file and follow its instructions to ensure MiKTeX is up to date for future use.
+    - Once done, you are ready to start using your portable LaTeX editor!
 
-## Optional: Image2pdf Tool for Faster Compilation
+## Image2pdf Tool for Faster Compilation: Usage and Output
 
 The **Image2pdf** tool is an optional utility that can help speed up the LaTeX compilation process by converting all images to PDF format.
 
-### Option 1: Python Script (`Image2pdf.py`)
+   ### Option 1: Python Script (`Image2pdf.py`)
 
-If you have Python installed:
+   If you have Python installed:
+   
+   1. Copy the `Image2pdf.py` script to the folder where your images are located.
+   2. Run the script to convert your images to PDF format.
+   3. A PDF version of each image will be created with the `.pdf` extension.
+   4. Update the image references in your LaTeX project.
 
-1. Copy the `Image2pdf.py` script to the folder where your images are located.
-2. Run the script to convert your images to PDF format.
-3. A PDF version of each image will be created with the `.pdf` extension.
-4. Update the image references in your LaTeX project.
-
-### Option 2: Executable (`Image2pdf.exe`)
-
-If you do not have Python installed or prefer using an executable, follow these steps:
-
-#### Step 1: Extract `Image2pdf.exe`
-
-The executable is provided as a split 7-Zip archive due to GitHub's file size limitations. To reassemble it:
-
-1. Download the split archive parts (`Image2pdf.7z.001` and `Image2pdf.7z.002`).
-2. Use **7-Zip** to extract the executable:
-   - Right-click on `Image2pdf.7z.001` and select **7-Zip > Extract Here**.
-   - Ensure all parts of the split archive are in the same directory before extracting.
-
-#### Step 2: Run the Executable
-
-1. Once `Image2pdf.exe` is extracted, copy it to the folder where your images are located.
-2. Run the executable to convert your images to PDF format.
-3. A PDF version of each image will be created with the `.pdf` extension.
-4. Update the image references in your LaTeX project.
-
-You may delete the executable after use if desired.
-
-Your folder structure should now look similar to this:
-
-![9](https://github.com/user-attachments/assets/31da48c8-1600-48ee-9781-646d1fb0e807)
-
-11. **Final Steps:**
-    - It is recommended to read the `README (MiKTeX).txt` file and follow its instructions to ensure MiKTeX is up to date for future use.
-    - Once done, you are ready to start using your portable LaTeX editor!
+   Otherwise install python from [here](https://www.python.org/downloads/ "Python download page") Or use the next option.
+   
+   ### Option 2: Executable (`Image2pdf.exe`)
+   
+   If you do not have Python installed or prefer using an executable, follow these steps:
+   
+   #### Step 1: Extract `Image2pdf.exe`
+   
+   The executable is provided as a split 7-Zip archive due to GitHub's file size limitations. To reassemble it:
+   
+   1. Download the split archive parts (`Image2pdf.7z.001` and `Image2pdf.7z.002`).
+   2. Use **7-Zip** to extract the executable:
+      - Right-click on `Image2pdf.7z.001` and select **7-Zip > Extract Here**.
+      - Ensure all parts of the split archive are in the same directory before extracting.
+   
+   #### Step 2: Run the Executable
+   
+   1. Once `Image2pdf.exe` is extracted, copy it to the folder where your images are located.
+   2. Run the executable to convert your images to PDF format.
+   3. A PDF version of each image will be created with the `.pdf` extension.
+   4. Update the image references in your LaTeX project.
+   
+   You may delete the executable after use if desired.
 
 ## About
 
