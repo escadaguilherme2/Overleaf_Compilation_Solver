@@ -14,15 +14,15 @@ Additionally, this repository provides an optional folder to convert multiple im
 
 3. **Extract the contents of the downloaded folder.**
    
-    - Locate the folder containing the files and rename it to **Texmaker**.
+    > - Locate the folder containing the files and rename it to **Texmaker**. 
 
 ![2](https://github.com/user-attachments/assets/98ebc038-80dd-4c04-96b2-f260c99ee479)
 
-    - Move it to the `LaTeX` folder you created earlier.
+    > - Move it to the `LaTeX` folder you created earlier. 
 
 ![3](https://github.com/user-attachments/assets/3917ade8-2a5f-4e50-8d63-358224b53609)
 
-    You can now delete both the original downloaded folder and the extracted folder.
+    > You can now delete both the original downloaded folder and the extracted folder. 
 
 4. Download the portable version of MiKTeX [here](https://miktex.org/download).
 
