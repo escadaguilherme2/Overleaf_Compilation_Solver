@@ -3,7 +3,7 @@ Instructions for Using MiKTeX Portable
 Follow these steps to ensure MiKTeX Portable is running smoothly and stays up to date:
 
 1. Launch MiKTeX Portable:
-    - Double-click `miktex-portable.cmd` to start MiKTeX Portable.
+    - Double-click miktex-portable.cmd to start MiKTeX Portable.
 
 2. Access MiKTeX in the Notification Area:
     - After launching, navigate to the notification area (system tray) on the Windows Taskbar.
@@ -14,7 +14,7 @@ Follow these steps to ensure MiKTeX Portable is running smoothly and stays up to
 
 4. Keep MiKTeX Updated:
     - It is crucial to regularly update MiKTeX to benefit from the latest package updates and bug fixes.
-    - In the context menu, select "Update MiKTeX" to open the update utility.
+    - In the context menu, select "Check for updates" to open the update utility.
     - Follow the prompts to complete the update process. This will help ensure your LaTeX environment is always up-to-date.
 
 5. Exiting MiKTeX Console:
