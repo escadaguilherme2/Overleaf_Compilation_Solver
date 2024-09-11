@@ -13,11 +13,12 @@ Additionally, this repository provides an optional folder to convert multiple im
 ![2](https://github.com/user-attachments/assets/6d7c30d6-9de2-41f8-8689-4d8b78157c93)
 
 3. **Extract the contents of the downloaded folder.**
-    Locate the folder containing the files and rename it to **Texmaker**.
+   
+    - Locate the folder containing the files and rename it to **Texmaker**.
 
 ![2](https://github.com/user-attachments/assets/98ebc038-80dd-4c04-96b2-f260c99ee479)
 
-    Move it to the `LaTeX` folder you created earlier.
+    - Move it to the `LaTeX` folder you created earlier.
 
 ![3](https://github.com/user-attachments/assets/3917ade8-2a5f-4e50-8d63-358224b53609)
 
@@ -34,7 +35,8 @@ Additionally, this repository provides an optional folder to convert multiple im
 ![6](https://github.com/user-attachments/assets/9c2433a7-d1b5-4c16-a429-c44c9f70117c)
 
 6. During installation, you will be asked for the destination folder. Choose a suitable location such as the `LaTeX` folder or your desktop.  
-    **Important:** If selecting a folder, you must add `\MiKTeX` to the end of the path.
+
+   **Important:** If selecting a folder, you must add `\MiKTeX` to the end of the path.
     
 ![7](https://github.com/user-attachments/assets/2bb05192-9cf8-45e4-97c6-ab44d8edc7eb)
 
