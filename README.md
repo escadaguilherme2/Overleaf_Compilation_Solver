@@ -70,7 +70,7 @@ Additionally, this repository provides an optional folder to convert multiple im
 
 12. **Final Steps:**
     - It is recommended to read the `README (MiKTeX).txt` file and follow its instructions to ensure MiKTeX is up to date for future use.
-    - Once done, you are ready to start using your portable LaTeX editor!
+    - Once done, you are ready to start using your portable LaTeX editor! Just run the `RUNME.bat` located in the **LaTeX** folder.
 
 ## Image2pdf Tool for Faster Compilation: Usage and Output
 
