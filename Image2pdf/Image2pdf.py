@@ -1,45 +1,46 @@
+
 import os
 
 from PIL import Image
 from reportlab.pdfgen import canvas
 
-# Obtém o diretório atual onde o script é executado
-diretorio_atual = os.getcwd()
+# Get the current directory where the script is executed
+current_directory = os.getcwd()
 
 
-# Função para criar um PDF para cada imagem no diretório atual
-def cria_pdfs_para_imagens(diretorio):
-    # Lista todos os arquivos no diretório atual
-    arquivos = os.listdir(diretorio)
+# Function to create a PDF for each image in the current directory
+def create_pdfs_for_images(directory):
+    # List all files in the current directory
+    files = os.listdir(directory)
 
-    # Verifica cada arquivo no diretório atual
-    for arquivo in arquivos:
-        # Verifica se é um arquivo de imagem suportado
-        if arquivo.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp')):
-            # Caminho completo para a imagem
-            caminho_imagem = os.path.join(diretorio, arquivo)
+    # Check each file in the current directory
+    for file in files:
+        # Check if it is a supported image file
+        if file.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp')):
+            # Full path to the image
+            image_path = os.path.join(directory, file)
 
-            # Nome do arquivo PDF de saída baseado no nome da imagem
-            nome_pdf = os.path.splitext(arquivo)[0] + '.pdf'
-            caminho_pdf = os.path.join(diretorio, nome_pdf)
+            # Name of the output PDF file based on the image name
+            pdf_name = os.path.splitext(file)[0] + '.pdf'
+            pdf_path = os.path.join(directory, pdf_name)
 
-            # Abre a imagem usando Pillow para obter as dimensões
-            img = Image.open(caminho_imagem)
-            largura, altura = img.size
+            # Open the image using Pillow to get its dimensions
+            img = Image.open(image_path)
+            width, height = img.size
 
-            # Cria um PDF para cada imagem com o tamanho da imagem
-            c = canvas.Canvas(caminho_pdf, pagesize=(largura, altura))
+            # Create a PDF for each image with the image's size
+            c = canvas.Canvas(pdf_path, pagesize=(width, height))
             try:
-                # Insere a imagem no PDF sem redimensionamento
-                c.drawInlineImage(caminho_imagem, 0, 0, width=largura, height=altura)
+                # Insert the image into the PDF without resizing
+                c.drawInlineImage(image_path, 0, 0, width=width, height=height)
 
-                # Salva o arquivo PDF
+                # Save the PDF file
                 c.save()
-                print(f'PDF gerado com sucesso: {caminho_pdf}')
+                print(f'Successfully generated PDF: {pdf_path}')
 
             except Exception as e:
-                print(f"Erro ao processar imagem {caminho_imagem}: {e}")
+                print(f"Error processing image {image_path}: {e}")                                   
 
 
-# Chama a função para criar PDFs para todas as imagens no diretório atual
-cria_pdfs_para_imagens(diretorio_atual)
+# Call the function to create PDFs for all images in the current directory
+create_pdfs_for_images(current_directory)
